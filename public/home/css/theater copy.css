@@ -1,0 +1,217 @@
+* {
+	font-family: "Montserrat", sans-serif !important;
+    box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css");
+
+body {
+	min-height: 100vh;
+    background-color: #242333;
+    color: #fff;
+    margin: 0;
+}
+
+
+
+.my{
+    width: 100%;
+}
+.my .movie-container {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.my .movie-container select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border: 0;
+    padding: 5px 15px;
+    margin-bottom: 40px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+
+.my #container {
+    perspective: 1000px;
+    /* margin: 20px 0; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.my .my_row{
+    display: flex;
+}
+.my .row_letter{
+    height: 28px;
+    width: 26px;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top_seat{
+    background-color: #444451;
+    height: 18px;
+    width: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.my .seat{
+    background-color: #444451;
+    height: 28px;
+    width: 26px;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.my .fake_seat{
+    height: 28px;
+    width: 26px;
+    margin: 2px;
+}
+.my .spinner{
+    height: 28px;
+    width: 26px;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.my .spinner img{
+    width: 100%;
+    height: 100%;
+}
+.mainSpinner{
+    width: 100%;
+    height: 100vh;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.my .selected {
+    background-color: #0081cb;
+}
+
+.my .occupied {
+    background-color: #fff;
+}
+
+/* .seat:nth-of-type(2) {
+    margin-right: 18px;
+} */
+
+/* .seat:nth-last-of-type(2) {
+    margin-left: 18px;
+} */
+
+.my .seat:not(.occupied):hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.my .showcase .seat:not(.occupied):hover {
+    cursor: default;
+    transform: scale(1);
+}
+
+.my .showcase {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    background: rgba(0,0,0,0.1);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #777;
+}
+
+.my .showcase li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+.my .showcase li small {
+    margin-left: 2px;
+}
+
+/* .my .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.my .row_width{
+    width: 100%;
+}
+.my .seat-container-width{
+    width: 600px;
+}
+.my .rel{
+    position: relative;
+}
+.my .flex_end{
+    position: absolute;
+    right: 0;
+}
+.my .screen {
+    background: #fff;
+    height: 70px;
+    width: 70%;
+    margin: 15px 0;
+    transform: rotateX(-45deg);
+    box-shadow: 0 3px 10px rgba(255,255,255,0.7);
+}
+
+.my p.text {
+    margin: 10px 0;
+}
+
+.my p.text span {
+    color: #0081cb;
+    font-weight: 600;
+    box-sizing: content-box;
+}
+
+.my .credits a {
+    color: #fff;
+}
+
+
+.my .next_btn{
+    background: linear-gradient(to right, #77acf1, #3edbf0);
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

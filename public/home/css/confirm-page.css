@@ -1,0 +1,112 @@
+
+
+.minHei{
+    min-height: 100vh;
+
+}
+
+h3{
+    border-bottom: 1.5px solid #77acf1 ;
+    color:rgba(82, 82, 82, 0.705)
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+.my_btn_style{
+    background-image:linear-gradient(to right, #77acf1, #3edbf0);
+    border: none;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40%;
+}
+.col{
+    background-color: #ecececa8;
+    border-radius: 5px;
+    height: 180px;
+}
+.table-light{
+    --bs-table-bg: #5986b3;
+}
+h4 span{
+    font-size: smaller;
+}
+.diiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.col .top-img{
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+    margin: 5px;
+}
+.movie-name{
+    font-size: larger;
+    font-weight: 600;
+}
+.my_padding{
+    padding-top: 30px;
+}
+.col p{
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+#ticket_num{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.col-12{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* responsive */
+@media only screen and (max-width: 377px){
+    h3{
+        font-size: 1.2rem;
+    }
+}
+@media only screen and (max-width: 318px){
+    h3{
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width: 269px){
+    h3{
+        font-size: .8rem;
+    }
+}
+@media only screen and (max-width: 283px){
+    .smaler{
+        font-size: .8rem;
+    }
+}
+
+
+footer{
+    background: linear-gradient(to right, #77acf1, #3edbf0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    color: #fff;
+}
